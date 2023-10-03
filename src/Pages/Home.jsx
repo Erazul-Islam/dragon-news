@@ -2,11 +2,13 @@ import Header from "../Layout/Shared/Header/Header";
 import LeftSideNAv from "../Layout/Shared/LeftSide/LeftSideNAv";
 import NavBar from "../Layout/Shared/Navbar/NavBar";
 import RightSideNav from "../Layout/Shared/RightSightNav/RightSideNav";
+import BreakingNews from "./BreakingNews";
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
+            <BreakingNews></BreakingNews>
             <NavBar></NavBar>
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
             <div>
